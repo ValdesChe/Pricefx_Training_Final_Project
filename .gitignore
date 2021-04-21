@@ -1,0 +1,6 @@
+.idea
+*.iml
+*.log
+config.groovy
+params.json
+.info
