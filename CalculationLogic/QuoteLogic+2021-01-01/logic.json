@@ -81,7 +81,7 @@
     "formatType" : "MONEY_EUR",
     "hideOnNull" : false,
     "hideWarnings" : false,
-    "summarize" : true
+    "summarize" : false
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
