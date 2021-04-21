@@ -1,0 +1,10 @@
+{
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Attribute Adjustment",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "AttributeAdj",
+  "validAfter" : "2010-01-01",
+  "valueType" : "MATRIX"
+}

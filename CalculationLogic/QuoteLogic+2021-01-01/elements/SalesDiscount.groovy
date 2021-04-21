@@ -1,0 +1,1 @@
+return input.SalesDiscount ?: 0.0 // User can erase the input's default value

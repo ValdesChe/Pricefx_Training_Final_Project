@@ -1,0 +1,30 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Hello Pricefx",
+    "elementName" : "HelloPricefx",
+    "elementTimeout" : 0,
+    "formatType" : "TEXT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Another Element",
+    "elementName" : "AnotherElement",
+    "elementTimeout" : 0,
+    "formatType" : "TEXT",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "status" : "ACTIVE",
+  "uniqueName" : "HelloPricefx",
+  "validAfter" : "2021-04-19"
+}

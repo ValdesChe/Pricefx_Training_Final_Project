@@ -1,0 +1,11 @@
+{
+  "formatType" : "PERCENT",
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Margin Adjustment",
+  "status" : "ACTIVE",
+  "type" : "SIMPLE",
+  "uniqueName" : "MarginAdj",
+  "validAfter" : "2010-01-01",
+  "valueType" : "REAL"
+}

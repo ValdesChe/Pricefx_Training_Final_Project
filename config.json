@@ -1,0 +1,8 @@
+{
+  "envs" : {
+    "training" : {
+      "cce-0192" : "https://training.pricefx.eu"
+    }
+  },
+  "keepLabelsIntact" : false
+}

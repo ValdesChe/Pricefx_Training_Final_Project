@@ -1,0 +1,10 @@
+{
+  "hideWarnings" : false,
+  "isPlasma" : false,
+  "label" : "Pocket Margin Alert Threshold",
+  "status" : "ACTIVE",
+  "type" : "MATRIX",
+  "uniqueName" : "PocketMarginAlertThreshold",
+  "validAfter" : "2020-01-08",
+  "valueType" : "MATRIX2"
+}
