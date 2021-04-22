@@ -4,4 +4,10 @@ if(out.BasePrice == null || out.AttributeAdjAbs == null || out.MarginAdjAbs == n
     return
 }
 
-return out.BasePrice + out.MarginAdjAbs + out.AttributeAdjAbs
+BigDecimal listPrice = out.BasePrice + out.MarginAdjAbs + out.AttributeAdjAbs
+def roundedListPrice = libs.SharedLib.RoundingUtils.round(listPrice, 2)
+
+api.trace("List Price", listPrice)
+api.trace("Rounded List Price", roundedListPrice)
+
+return roundedListPrice
