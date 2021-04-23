@@ -1,0 +1,18 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementName" : "AbortOnSyntaxCheckMode",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  }, {
+    "combinationType" : "FUNCTION",
+    "elementName" : "BuildSteps",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  } ],
+  "label" : "Pricelist Workflow",
+  "status" : "ACTIVE",
+  "uniqueName" : "pricelist",
+  "validAfter" : "2021-01-20",
+  "workflowType" : "pricelist"
+}
