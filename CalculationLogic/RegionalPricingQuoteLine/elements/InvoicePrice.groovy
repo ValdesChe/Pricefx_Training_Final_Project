@@ -1,0 +1,1 @@
+return out.RequestedPrice == null ? out.ListPrice : out.RequestedPrice
