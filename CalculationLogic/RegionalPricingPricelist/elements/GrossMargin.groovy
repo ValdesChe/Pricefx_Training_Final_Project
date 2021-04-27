@@ -8,4 +8,27 @@ if(out.ListPrice == 0){
     return
 }
 
-return ( out.ListPrice - out.BasePrice ) / out.ListPrice
+def grossMargin =  ( out.ListPrice - out.BasePrice ) / out.ListPrice
+
+def businessUnit = api.product("BusinessUnit") as String
+def filters = [
+        Filter.equal("BusinessUnit", businessUnit)
+]
+
+def fields = ["attribute1", "attribute2", "attribute3"] as List
+def threshold = api.findLookupTableValues("PriceStrategy", null, fields, null, *filters)
+        ?.find()
+
+if(grossMargin < (threshold?.attribute1 as BigDecimal)){
+    api.criticalAlert("Critical Alert : Margin is toooo low")
+}
+
+if(grossMargin > (threshold?.attribute1 as BigDecimal) && grossMargin < (threshold?.attribute2 as BigDecimal)){
+    api.redAlert("Red Alert : Margin is low")
+}
+
+if(grossMargin > (threshold?.attribute2 as BigDecimal) && grossMargin < (threshold?.attribute3 as BigDecimal)){
+    api.yellowAlert("Yellow Alert : Margin is low")
+}
+
+return grossMargin
