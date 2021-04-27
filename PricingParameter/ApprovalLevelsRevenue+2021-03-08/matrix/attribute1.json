@@ -1,0 +1,11 @@
+{
+  "fieldName" : "attribute1",
+  "fieldType" : 1,
+  "formatType" : "MONEY_EUR",
+  "label" : "RevenueTreshold",
+  "labelTranslations" : {
+    "" : "Revenue Treshold"
+  },
+  "readOnly" : false,
+  "requiredField" : false
+}

@@ -1,0 +1,1 @@
+return quoteProcessor.getQuoteView().customerId

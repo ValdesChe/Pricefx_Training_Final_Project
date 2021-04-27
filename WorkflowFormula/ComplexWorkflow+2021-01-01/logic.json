@@ -1,0 +1,14 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementLabel" : "Build Steps",
+    "elementName" : "BuildSteps",
+    "elementTimeout" : 0,
+    "hideWarnings" : false
+  } ],
+  "label" : "ComplexWorkflow",
+  "status" : "ACTIVE",
+  "uniqueName" : "ComplexWorkflow",
+  "validAfter" : "2021-01-01",
+  "workflowType" : "quote"
+}
