@@ -1,0 +1,19 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementLabel" : "CalculateLPG",
+    "elementName" : "CalculateLPG",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  } ],
+  "formulaNature" : "calculationFlow",
+  "label" : "LPG_Flow",
+  "status" : "ACTIVE",
+  "uniqueName" : "LPG_Flow",
+  "validAfter" : "2021-04-01"
+}

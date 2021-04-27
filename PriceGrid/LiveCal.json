@@ -1,0 +1,17 @@
+{
+  "configuration" : {
+    "allowFieldTypeChange" : false,
+    "approvalTriggerFields" : [ ],
+    "defaultFormulaOverride" : "Pricelist",
+    "elementNames" : [ "MarginAdjAbs", "AttributeAdjPct", "AttributeAdjAbs", "ListPrice", "BasePrice", "MarginAdjPct" ],
+    "hiddenDefaultFields" : [ ],
+    "hiddenElementNames" : [ ],
+    "inputs" : [ ],
+    "resultElementName" : "ListPrice",
+    "shotgunModeEnabled" : false
+  },
+  "keepManualOverrides" : false,
+  "label" : "LiveCal",
+  "priceGridType" : "SIMPLE",
+  "writeOnlyChangedItems" : false
+}
