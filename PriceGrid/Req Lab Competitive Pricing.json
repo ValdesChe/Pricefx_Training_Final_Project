@@ -1,0 +1,17 @@
+{
+  "configuration" : {
+    "allowFieldTypeChange" : false,
+    "approvalTriggerFields" : [ ],
+    "defaultFormulaOverride" : "CompetitionPricing",
+    "elementNames" : [ "ProductCost", "MarginPct", "CompetitorName", "CompetitorProductPrice", "ListPrice", "CompetitivePositioning", "CompetitorProductLabel" ],
+    "hiddenDefaultFields" : [ ],
+    "hiddenElementNames" : [ ],
+    "inputs" : [ ],
+    "resultElementName" : "ListPrice",
+    "shotgunModeEnabled" : false
+  },
+  "keepManualOverrides" : false,
+  "label" : "Req Lab Competitive Pricing",
+  "priceGridType" : "SIMPLE",
+  "writeOnlyChangedItems" : false
+}
