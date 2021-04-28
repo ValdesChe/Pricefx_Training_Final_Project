@@ -63,6 +63,18 @@
     "combinationType" : "FUNCTION",
     "displayOptions" : 2,
     "elementGroups" : [ ],
+    "elementLabel" : "FreightSurcharge",
+    "elementName" : "FreightSurcharge",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY_EUR",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 2,
+    "elementGroups" : [ ],
     "elementLabel" : "Invoice Price",
     "elementName" : "InvoicePrice",
     "elementTimeout" : 0,
