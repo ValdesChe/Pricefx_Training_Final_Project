@@ -1,3 +1,0 @@
-if(quoteProcessor.isPrePhase()){
-    return
-}
